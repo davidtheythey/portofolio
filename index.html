@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description"
+        content="Portfolio of David They-They, an aspiring software engineer from the DR Congo, learning and building in Rwanda.">
+    <title>David They-They | Portfolio</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Adds the "js" class early so the scroll animation does not flash -->
+    <script>document.documentElement.classList.add("js")</script>
+
+    <!-- Connect JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a href="#main" class="skip">Skip to content</a>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar" aria-label="Main">
+            <a href="#home" class="logo" aria-label="David, back to top">DAVID<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#goals">Vision</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="icon-btn" id="themeToggle" type="button"
+                    aria-label="Toggle light and dark theme">◐</button>
+                <a href="#contact" class="nav-button">Let’s Talk ↗</a>
+                <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="navLinks"
+                    aria-label="Menu">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div>
+                    <p class="welcome">AVAILABLE TO LEARN &amp; COLLABORATE</p>
+                    <h1>Hello, I’m <br><span>David They-They</span></h1>
+                    <h2>Aspiring Software Engineer / Builder</h2>
+                    <p class="hero-text">I am a learner from the Democratic Republic of Congo, currently developing my
+                        technical skills in Rwanda. I am interested in software, digital innovation, education, and
+                        using technology to create positive change.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="button">Explore My Work ↘</a>
+                        <a href="#about" class="button secondary">More About Me</a>
+                    </div>
+                    <div class="quick-info">
+                        <div>
+                            <h3>DRC → Rwanda</h3>
+                            <p>My journey</p>
+                        </div>
+                        <div>
+                            <h3>Learn &amp; Build</h3>
+                            <p>My approach</p>
+                        </div>
+                        <div>
+                            <h3>Technology</h3>
+                            <p>My purpose</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <div class="photo">
+                        <div class="ph"><span>DT</span><small>YOUR PHOTO</small></div>
+                        <!-- Put your photo at images/profile.jpg. If it is missing, the initials stay visible. -->
+                        <img src="images/profile.jpg" alt="Portrait of David They-They" onerror="this.remove()">
+                    </div>
+                    <p class="profile-caption">Curious mind. Growing builder.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container">
+                <p class="section-number">01 / About me</p>
+                <h2>A Little About <span>My Story</span></h2>
+                <div class="about-content">
+                    <h3>I believe learning, technology, and determination can open doors.</h3>
+                    <div>
+                        <p>My journey began in the Democratic Republic of Congo, where I studied Electrical Technology.
+                            I am now in Rwanda, developing practical IT and software skills.</p>
+                        <p>My long-term goal is to study Software Engineering, become a skilled developer, and build
+                            useful digital solutions.</p>
+                        <p>I also hope to help young people access education, technology, and opportunities that can
+                            improve their lives.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <div class="container">
+                <p class="section-number">02 / My skills</p>
+                <h2>Skills &amp; <span>Toolkit</span></h2>
+                <p class="section-description">These are the skills I am learning and developing.</p>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Web Development</h3>
+                        <p>Learning to create websites and responsive layouts.</p>
+                        <div class="tags">HTML · CSS</div>
+                    </article>
+                    <article class="card">
+                        <h3>Programming</h3>
+                        <p>Practicing programming logic and problem-solving.</p>
+                        <div class="tags">JavaScript</div>
+                    </article>
+                    <article class="card">
+                        <h3>Developer Tools</h3>
+                        <p>Learning to manage code and collaborate with developers.</p>
+                        <div class="tags">VS Code · Git · GitHub</div>
+                    </article>
+                    <article class="card">
+                        <h3>Communication</h3>
+                        <p>Improving my English, teamwork, and leadership skills.</p>
+                        <div class="tags">Teamwork · Leadership</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div class="container">
+                <p class="section-number">03 / My projects</p>
+                <h2>Projects in <span>Progress</span></h2>
+                <div class="cards">
+                    <article class="card">
+                        <p class="project-number">PROJECT 01</p>
+                        <h3>Personal Portfolio</h3>
+                        <p>A website presenting my background, skills, interests, and goals.</p>
+                        <div class="tags">HTML · CSS · JavaScript</div>
+                        <a href="#home" class="project-link">View Project ↗</a>
+                    </article>
+                    <article class="card">
+                        <p class="project-number">PROJECT 02</p>
+                        <h3>Restaurant Website</h3>
+                        <p>A website I built for my mum’s restaurant, presenting the restaurant, its menu, and how to
+                            contact it.</p>
+                        <div class="tags">HTML · CSS · JavaScript</div>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                            class="project-link">View Project ↗</a>
+                    </article>
+                    <article class="card">
+                        <p class="project-number">PROJECT 03</p>
+                        <h3>Fitness Tracker</h3>
+                        <p>A project for practicing development workflows, Git, GitHub, and collaboration.</p>
+                        <div class="tags">Web Development · Git</div>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                            class="project-link">View Project ↗</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOURNEY -->
+        <section id="journey">
+            <div class="container">
+                <p class="section-number">04 / My journey</p>
+                <h2>Where I’ve Been. <span>Where I’m Going.</span></h2>
+                <div class="timeline">
+                    <div class="journey-item"><span>01</span>
+                        <div>
+                            <h3>Technical Secondary Education</h3>
+                            <p>Studied Electrical Technology / electrotechnics in the Democratic Republic of Congo.</p>
+                        </div>
+                    </div>
+                    <div class="journey-item"><span>02</span>
+                        <div>
+                            <h3>University Experience</h3>
+                            <p>African Leadership University, Rwanda. Exploring leadership, learning, and impact.</p>
+                        </div>
+                    </div>
+                    <div class="journey-item"><span>03</span>
+                        <div>
+                            <h3>Practical IT Training</h3>
+                            <p>Developing practical digital and software skills at AHC Solutions in Kigali.</p>
+                        </div>
+                    </div>
+                    <div class="journey-item"><span>04</span>
+                        <div>
+                            <h3>My Next Goal</h3>
+                            <p>Continue toward Software Engineering and build applications that solve real problems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VISION -->
+        <section id="goals">
+            <div class="container">
+                <p class="section-number">05 / My vision</p>
+                <h2>Purpose Over <span>Perfection</span></h2>
+                <p>My ambition is to become a software engineer and eventually help create opportunities for talented
+                    young people in Africa.</p>
+                <h3>My Values</h3>
+                <div class="values">
+                    <span>Discipline</span><span>Faith</span><span>Patience</span><span>Determination</span><span>Innovation</span><span>Education</span><span>Service</span>
+                </div>
+                <h3>My Goals</h3>
+                <ul class="goals-list">
+                    <li>Improve my programming skills.</li>
+                    <li>Build real projects and a strong portfolio.</li>
+                    <li>Continue toward a Software Engineering degree.</li>
+                    <li>Use technology to make a positive impact.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="container">
+                <p class="section-number">06 / Contact</p>
+                <h2>Let’s <span>Connect</span></h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>I am open to learning, mentorship, collaboration, and meaningful technology projects.</p>
+                        <p>Email: <a href="mailto:d.mayani@alustudent.com" id="emailLink">d.mayani@alustudent.com</a>
+                        </p>
+                        <div class="social-links">
+                            <a href="https://github.com/settings/emails" target="_blank"
+                                rel="noopener noreferrer">GitHub ↗</a>
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram
+                                ↗</a>
+                        </div>
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div><label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name"
+                                required>
+                        </div>
+                        <div><label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com"
+                                autocomplete="email" required>
+                        </div>
+                        <div><label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this about?">
+                        </div>
+                        <div><label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message here…" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="button">Prepare Email ↗</button>
+                        <p class="form-message" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">DAVID<span>.</span></a>
+        <p>Designed with purpose. Built while learning. © <span id="year">2026</span></p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+</body>
+
+</html>
